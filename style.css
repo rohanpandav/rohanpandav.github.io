@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+canvas#canvas {
+  display: block;
+  background: #1122819a;
+}
+
+.textpos {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: azure;
+  background: rgba(204, 224, 238, 0.5)
+}
